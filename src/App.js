@@ -1,7 +1,7 @@
 import React from "react";
 
 // CUSTOM COMPONENTS
-import Homepage from "./Components/Homepage/Homepage";
+import Homepage from "./Pages/Homepage/Homepage";
 
 // CUSTOM STYLES
 import "./App.css";
