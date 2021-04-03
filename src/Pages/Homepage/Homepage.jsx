@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // CUSTOM COMPONENTS
 import Directory from "../../Components/Directory/Directory";

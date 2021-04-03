@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 // CUSTOM COMPONENTS
 import MenuItem from "../MenuItem/MenuItem";
@@ -51,19 +51,17 @@ export default class Directory extends Component {
   render() {
     return (
       <div className="Directory">
-        <div className="Directory">
-          {
-            this.state.sections.map(({ title, imageUrl, size, id, linkUrl }) => (
-              <MenuItem 
-                key={id}
-                title={title}
-                imageUrl={imageUrl}
-                size={size}
-                linkUrl={linkUrl}
-              />
-            ))
-          }
-        </div>
+        {
+          this.state.sections.map(({ title, imageUrl, size, id, linkUrl }) => (
+            <MenuItem 
+              key={id}
+              title={title}
+              imageUrl={imageUrl}
+              size={size}
+              linkUrl={linkUrl}
+            />
+          ))
+        }
       </div>
     )
   }
